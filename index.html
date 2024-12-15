@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Drop</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+        }
+        .drop {
+            position: absolute;
+            font-size: 20px;
+            animation: drop 3s infinite;
+        }
+        @keyframes drop {
+            0% {
+                top: -10px;
+            }
+            100% {
+                top: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="content">
+        <!-- Paste your README content here -->
+        <h1>Your GitHub README Content</h1>
+        <p>Include all the information you want here!</p>
+    </div>
+
+    <script>
+        function randomNumberDrop() {
+            const number = Math.floor(Math.random() * 100);
+            const dropElement = document.createElement('div');
+            dropElement.classList.add('drop');
+            dropElement.innerText = number;
+            dropElement.style.left = `${Math.random() * 100}vw`; // Random position
+            document.body.appendChild(dropElement);
+
+            // Remove element after animation is complete
+            setTimeout(() => {
+                dropElement.remove();
+            }, 3000);
+        }
+
+        setInterval(randomNumberDrop, 500); // Drops every 500ms
+    </script>
+
+</body>
+</html>
