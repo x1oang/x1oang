@@ -27,14 +27,26 @@
                 top: 100%;
             }
         }
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+        }
     </style>
 </head>
 <body>
 
-    <div id="content">
-        <!-- Paste your README content here -->
-        <h1>Your GitHub README Content</h1>
-        <p>Include all the information you want here!</p>
+    <!-- Display README content here -->
+    <div class="content">
+        <h1>Welcome to My Project</h1>
+        <p>This is the content from my README file. It contains the details of the project and links to other resources.</p>
+        <ul>
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+        </ul>
     </div>
 
     <script>
