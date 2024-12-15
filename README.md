@@ -16,7 +16,49 @@
 
 | **Language**       | **Badge**                                                       | **Link/Details**                      |
 |--------------------|------------------------------------------------------------------|---------------------------------------|
-| ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | Python                                                         | [python.org](https://www.python.org)  |
+| ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | Python                                                         | [python.org](https://www.python.org)  |                         ## Guess the Number Game in Python
+
+```python
+import random
+
+def guess_the_number():
+    print("Welcome to 'Guess the Number'!")
+    print("I'm thinking of a number between 1 and 100.")
+
+    # Randomly choose a number between 1 and 100
+    secret_number = random.randint(1, 100)
+    attempts = 0
+    guessed = False
+
+    # Game loop
+    while not guessed:
+        try:
+            # Get user's guess
+            guess = int(input("Enter your guess: "))
+            attempts += 1
+            
+            # Check the guess
+            if guess < secret_number:
+                print("Too low! Try again.")
+            elif guess > secret_number:
+                print("Too high! Try again.")
+            else:
+                print(f"Congratulations! You guessed the number in {attempts} attempts.")
+                guessed = True
+        
+        except ValueError:
+            print("Please enter a valid number.")
+        
+    # Ask the user if they want to play again
+    play_again = input("Do you want to play again? (yes/no): ").lower()
+    if play_again == 'yes':
+        guess_the_number()
+    else:
+        print("Thanks for playing! See you next time.")
+
+# Start the game
+guess_the_number()
+
 | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | JavaScript                                                     | [javascript.com](https://www.javascript.com) |
 | ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white) | CSS                                                            | [w3schools CSS](https://www.w3schools.com/css/) |
 | ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white) | HTML                                                           | [w3schools HTML](https://www.w3schools.com/html/) |
