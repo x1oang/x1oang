@@ -39,14 +39,7 @@ Here are some of the programming languages and tools I’m passionate about:
 
 Here are some of my cool projects:
 
-### 🩺 [Surgical Simulation App](https://github.com/username/simulation-app)
-A virtual tool for practicing surgical techniques, helping students and aspiring surgeons perfect their craft.
-
-### 🎮 [Brawl Stars Helper](https://github.com/username/brawlstars-helper)
-A tool for optimizing gameplay strategies, providing insights and tips for dominating the battlefield.
-
-### 💡 [Interactive Biology Quizzes](https://github.com/username/biology-quizzes)
-Fun and engaging biology challenges for students to make learning science exciting.
+None on this account yet..
 
 ---
 
