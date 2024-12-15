@@ -12,6 +12,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            overflow-x: hidden;
         }
         .content {
             position: relative;
@@ -23,6 +24,7 @@
             background-color: rgba(0, 0, 0, 0.5);
             padding: 20px;
             border-radius: 8px;
+            z-index: 10;
         }
         .drop {
             position: absolute;
@@ -43,19 +45,27 @@
 <body>
 
     <!-- This is where the README content will be injected -->
-    <div class="content" id="readme-content"></div>
+    <div class="content" id="readme-content">
+        <h1>Loading README...</h1>
+    </div>
 
     <script>
         // Fetch and display README.md from GitHub repository
         fetch('https://raw.githubusercontent.com/x1oang/x1oang/main/README.md')
-            .then(response => response.text())
+            .then(response => {
+                if (response.ok) {
+                    return response.text(); // Get the markdown text
+                } else {
+                    throw new Error('Failed to fetch README');
+                }
+            })
             .then(data => {
-                // Convert the fetched Markdown to HTML
+                // Convert the fetched Markdown to HTML using marked.js
                 const htmlContent = marked(data);
                 document.getElementById('readme-content').innerHTML = htmlContent;
             })
             .catch(error => {
-                console.error('Error fetching README.md:', error);
+                document.getElementById('readme-content').innerHTML = `<p>Error: ${error.message}</p>`;
             });
 
         // Random number drop effect
@@ -76,5 +86,6 @@
         // Drop random numbers every 500ms
         setInterval(randomNumberDrop, 500);
     </script>
+
 </body>
 </html>
