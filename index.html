@@ -3,89 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages</title>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <style>
-        body {
-            background-color: #1a1a1a;
-            color: white;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-        }
-        .content {
-            position: relative;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 80%;
-            max-width: 800px;
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 20px;
-            border-radius: 8px;
-            z-index: 10;
-        }
-        .drop {
-            position: absolute;
-            font-size: 20px;
-            color: rgba(255, 255, 255, 0.8);
-            animation: drop 3s infinite;
-        }
-        @keyframes drop {
-            0% {
-                top: -10px;
-            }
-            100% {
-                top: 100%;
-            }
-        }
-    </style>
+    <title>Markdown Display</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <!-- This is where the README content will be injected -->
-    <div class="content" id="readme-content">
-        <h1>Loading README...</h1>
-    </div>
-
+    <div id="content"></div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
-        // Fetch and display README.md from GitHub repository
-        fetch('https://raw.githubusercontent.com/x1oang/x1oang/main/README.md')
-            .then(response => {
-                if (response.ok) {
-                    return response.text(); // Get the markdown text
-                } else {
-                    throw new Error('Failed to fetch README');
-                }
-            })
-            .then(data => {
-                // Convert the fetched Markdown to HTML using marked.js
-                const htmlContent = marked(data);
-                document.getElementById('readme-content').innerHTML = htmlContent;
-            })
-            .catch(error => {
-                document.getElementById('readme-content').innerHTML = `<p>Error: ${error.message}</p>`;
+        fetch('yourfile.md')
+            .then(response => response.text())
+            .then(text => {
+                document.getElementById('content').innerHTML = marked(text);
             });
-
-        // Random number drop effect
-        function randomNumberDrop() {
-            const number = Math.floor(Math.random() * 100);
-            const dropElement = document.createElement('div');
-            dropElement.classList.add('drop');
-            dropElement.innerText = number;
-            dropElement.style.left = `${Math.random() * 100}vw`; // Random position
-            document.body.appendChild(dropElement);
-
-            // Remove element after animation is complete
-            setTimeout(() => {
-                dropElement.remove();
-            }, 3000);
-        }
-
-        // Drop random numbers every 500ms
-        setInterval(randomNumberDrop, 500);
     </script>
-
 </body>
 </html>
