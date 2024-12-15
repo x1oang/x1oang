@@ -74,7 +74,20 @@ Want to connect? Here’s how you can reach me:
 
 ---
 
-## 🎉 Fun Fact
+## 🎉 Fun Facts about me
 
-Coding keeps me sharp for my future as a surgeon—it's all about precision, logic, and staying cool under pressure! 😎
-Plus, I think of coding as my superpower to create, innovate, and solve problems with just a keyboard. 💻✨
+- I do alot alot of investing
+  <table>
+    <tr>
+      <th>What I invest in.</th>
+      <th>My future Invesments.</th>
+      
+    </tr>
+
+<tr >
+  <td>
+    <img src="https://img.shields.io/badge/Stock_Price_$120.50-brightgreen>
+    
+  </td>
+</tr>
+  </table>
