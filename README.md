@@ -12,26 +12,26 @@
 
 ## 🛠️ Technologies & Tools
 
-<table>
-  <tr>
-    <th>Languages</th>
-    <th>Learning Languages</th>
+## Languages I Know
 
-  </tr>
-  <tr>
-    <td>
-      <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-      <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-      <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-      <img src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-      <img src="https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
-    </td>
-    <td>
-      <img src="https://img.shields.io/badge/-Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
-      <img src="https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java">
-      <img src="https://img.shields.io/badge/-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
-    </td>
-    
+| **Language**       | **Badge**                                                       | **Link/Details**                      |
+|--------------------|------------------------------------------------------------------|---------------------------------------|
+| ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | Python                                                         | [python.org](https://www.python.org)  |
+| ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | JavaScript                                                     | [javascript.com](https://www.javascript.com) |
+| ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white) | CSS                                                            | [w3schools CSS](https://www.w3schools.com/css/) |
+| ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white) | HTML                                                           | [w3schools HTML](https://www.w3schools.com/html/) |
+| ![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat-square&logo=markdown) | Markdown                                                       | [markdown.org](https://www.markdown.org) |
+| ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) | C++                                                            | [cppreference.com](https://en.cppreference.com/w/) |
+
+## Languages I Am Learning
+
+| **Language**       | **Badge**                                                       | **Link/Details**                      |
+|--------------------|------------------------------------------------------------------|---------------------------------------|
+| ![Ruby](https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white) | Ruby                                                           | [ruby-lang.org](https://www.ruby-lang.org) |
+| ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Go (Golang)                                                    | [golang.org](https://golang.org) |
+| ![Scratch](https://img.shields.io/badge/-Scratch-4D97FF?style=flat-square&logo=scratch&logoColor=white) | Scratch (visual language)                                       | [scratch.mit.edu](https://scratch.mit.edu) |
+| ![Swift](https://img.shields.io/badge/-Swift-F05138?style=flat-square&logo=swift&logoColor=white) | Swift                                                           | [swift.org](https://swift.org) |
+
 </table>
 
 ### Other Tools
