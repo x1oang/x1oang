@@ -36,14 +36,16 @@
 
 ### Other Tools
 
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)  
-![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat-square&logo=markdown)  
-![Visual Studio Code](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)  
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)  
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)  
-![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)  
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)  
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+| **Tool Name**       | **Purpose**                     | **Link/Details**                      |
+|---------------------|---------------------------------|---------------------------------------|
+| ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)  | Code hosting and version control    | [github.com](https://github.com)      |
+| ![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat-square&logo=markdown)  | Markdown language for documentation | [markdown.org](https://www.markdown.org) |
+| ![Visual Studio Code](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)  | Code editor for development          | [code.visualstudio.com](https://code.visualstudio.com) |
+| ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)  | Version control tool                 | [git-scm.com](https://git-scm.com)    |
+| ![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)  | Design and prototyping tool          | [figma.com](https://www.figma.com)    |
+| ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)  | API development and testing tool     | [postman.com](https://www.postman.com) |
+| ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)  | Containerization platform            | [docker.com](https://www.docker.com)  |
+| ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)  | Operating system                     | [linux.org](https://www.linux.org)    |
 
 ---
 
