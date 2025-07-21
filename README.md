@@ -5,38 +5,36 @@
 
 ## 🧪 My Cursed Tools
 
-|
-|------|------------------------|
-| ![Python](https://img.shields.io/badge/-Python-000000?style=flat-square&logo=python&logoColor=white) | Dark logic and forbidden functions |
-| ![JavaScript](https://img.shields.io/badge/-JavaScript-111?style=flat-square&logo=javascript&logoColor=yellow) | Chaotic frontend sorcery |
-| ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white) | Skeletons of the web |
-| ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white) | Styling my madness |
-| ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) | Memory manipulation spells |
-| ![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat-square&logo=markdown) | Runes of README rituals |
+| ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | Python                                                         | [python.org](https://www.python.org)  |
+| ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | JavaScript                                                     | [javascript.com](https://www.javascript.com) |
+| ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white) | CSS                                                            | [w3schools CSS](https://www.w3schools.com/css/) |
+| ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white) | HTML                                                           | [w3schools HTML](https://www.w3schools.com/html/) |
+| ![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat-square&logo=markdown) | Markdown                                                       | [markdown.org](https://www.markdown.org) |
+| ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) | C++                                                            | [cppreference.com](https://en.cppreference.com/w/) |
 
----
+## Languages I Am Learning
 
-## 🧠 Languages I'm learning now
+| **Language**       | **Badge**                                                       | **Link/Details**                      |
+|--------------------|------------------------------------------------------------------|---------------------------------------|
+| ![Ruby](https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white) | Ruby                                                           | [ruby-lang.org](https://www.ruby-lang.org) |
+| ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Go (Golang)                                                    | [golang.org](https://golang.org) |
+| ![Scratch](https://img.shields.io/badge/-Scratch-4D97FF?style=flat-square&logo=scratch&logoColor=white) | Scratch (visual language)                                       | [scratch.mit.edu](https://scratch.mit.edu) |
+| ![Swift](https://img.shields.io/badge/-Swift-F05138?style=flat-square&logo=swift&logoColor=white) | Swift                                                           | [swift.org](https://swift.org) |
 
+</table>
 
-|----------|----------------------|
-| ![Ruby](https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white) | Red like blood. Beautiful chaos. |
-| ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Fast. Deadly. Quiet like a ghost. |
-| ![Swift](https://img.shields.io/badge/-Swift-F05138?style=flat-square&logo=swift&logoColor=white) | Apple’s forbidden fruit 🍎 |
-| ![Scratch](https://img.shields.io/badge/-Scratch-4D97FF?style=flat-square&logo=scratch&logoColor=white) | Where the dark magic began... |
+### Other Tools
 
----
-
-## 🔧 Ritual Tools
-
-
-|------|---------|
-| ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white) | My arcane IDE spellbook |
-| ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) | To travel through time |
-| ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) | API spell testing |
-| ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | For trapping demons in containers |
-| ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black) | Where I feel most alive... in the terminal |
-| ![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) | To summon UI illusions |
+| **Tool Name**       | **Purpose**                     | **Link/Details**                      |
+|---------------------|---------------------------------|---------------------------------------|
+| ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)  | Code hosting and version control    | [github.com](https://github.com)      |
+| ![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat-square&logo=markdown)  | Markdown language for documentation | [markdown.org](https://www.markdown.org) |
+| ![Visual Studio Code](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)  | Code editor for development          | [code.visualstudio.com](https://code.visualstudio.com) |
+| ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)  | Version control tool                 | [git-scm.com](https://git-scm.com)    |
+| ![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)  | Design and prototyping tool          | [figma.com](https://www.figma.com)    |
+| ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)  | API development and testing tool     | [postman.com](https://www.postman.com) |
+| ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)  | Containerization platform            | [docker.com](https://www.docker.com)  |
+| ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)  | Operating system                     | [linux.org](https://www.linux.org)    |
 
 ---
 
