@@ -1,15 +1,3 @@
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=F70000&center=true&vCenter=true&multiline=true&width=435&lines=☠️+Welcome,+Mortal...+;🎃+You+found+my+dark+terminal+;💻+Coding+by+moonlight...+" alt="Typing SVG" />
-
----
-
-<p align="center">
-  <img src="https://media.tenor.com/Xtm_aCBOZx4AAAAd/hello-hacker.gif" width="150"/>
-</p>
-
-## 😈 Who Am I?
-
-- 🧠 Evil genius in training  
-- 🔬 I dissect **Biology** & **Chemistry** like it’s mad science  
 - 🐍 Fluent in speaking to snakes.  
 - 👾 Sometimes I code. Sometimes I summon things from the void.
 
